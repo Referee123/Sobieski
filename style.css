@@ -84,37 +84,30 @@ html {
 
     #button {
       border: 2px solid black;
-        }
-  </style>
+    }
 
-
-  <div class="panels">
-    <div class="panel panel1">
+    .nav{
+      width: 200px;
+      height: 600px;
+      background: black;
+      float: left;
+    }
+      .content{
+      width: 200px;
+      height: 600px;
+      background: red;
+      float: left;
+      }
+      .table{
+      width: 200px;
+      height: 600px;
+      background: white;
+      float: left;
+      }
+      .footer{
       
-      <p>Seniorzy</p>
-      <div id="button">
-        Kliknij, żeby przejść dalej
-      </div>
-    </div>
-    <div class="panel panel2">
-      <p>Give</p>
-      <p>Take</p>
-      <p>Receive</p>
-    </div>
-    <div class="panel panel3">
-      <p>Experience</p>
-      <p>It</p>
-      <p>Today</p>
-    </div>
-    <div class="panel panel4">
-      <p>Give</p>
-      <p>All</p>
-      <p>You can</p>
-    </div>
-    <div class="panel panel5">
-      <p>Life</p>
-      <p>In</p>
-      <p>Motion</p>
-    </div>
-
-  </div>
+      height: 600px;
+      background: green;
+      clear: both;
+      }
+    }     
